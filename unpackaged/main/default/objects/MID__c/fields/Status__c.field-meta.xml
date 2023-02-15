@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Proposed</fullName>
+                <default>false</default>
+                <label>Proposed</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Former Customer</fullName>
+                <default>false</default>
+                <label>Former Customer</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Former Partner</fullName>
+                <default>false</default>
+                <label>Former Partner</label>
+            </value>
+            <value>
+                <fullName>Pre-Application Received(100)</fullName>
+                <default>false</default>
+                <label>Pre-Application Received(100)</label>
+            </value>
+            <value>
+                <fullName>Application Resubmitted(125)</fullName>
+                <default>false</default>
+                <label>Application Resubmitted(125)</label>
+            </value>
+            <value>
+                <fullName>Declined(200)</fullName>
+                <default>false</default>
+                <label>Declined(200)</label>
+            </value>
+            <value>
+                <fullName>Closed - Merchant Cancelled(300)</fullName>
+                <default>false</default>
+                <label>Closed - Merchant Cancelled(300)</label>
+            </value>
+            <value>
+                <fullName>Closed - Termination(325)</fullName>
+                <default>false</default>
+                <label>Closed - Termination(325)</label>
+            </value>
+            <value>
+                <fullName>Seasonal Business(330)</fullName>
+                <default>false</default>
+                <label>Seasonal Business(330)</label>
+            </value>
+            <value>
+                <fullName>Gateway / Accessory Service Only(350)</fullName>
+                <default>false</default>
+                <label>Gateway / Accessory Service Only(350)</label>
+            </value>
+            <value>
+                <fullName>Awaiting ISO Activation of Underwriting(375)</fullName>
+                <default>false</default>
+                <label>Awaiting ISO Activation of Underwriting(375)</label>
+            </value>
+            <value>
+                <fullName>In Underwriting(400)</fullName>
+                <default>false</default>
+                <label>In Underwriting(400)</label>
+            </value>
+            <value>
+                <fullName>On Primary Hold - Need Additional Information(425)</fullName>
+                <default>false</default>
+                <label>On Primary Hold - Need Additional Information(425)</label>
+            </value>
+            <value>
+                <fullName>Approved - In Data Entry for Mid Build(500)</fullName>
+                <default>false</default>
+                <label>Approved - In Data Entry for Mid Build(500)</label>
+            </value>
+            <value>
+                <fullName>Approved - Awaiting Faxed Documentation(550)</fullName>
+                <default>false</default>
+                <label>Approved - Awaiting Faxed Documentation(550)</label>
+            </value>
+            <value>
+                <fullName>Approved(600)</fullName>
+                <default>false</default>
+                <label>Approved(600)</label>
+            </value>
+            <value>
+                <fullName>Approved - Installed(650)</fullName>
+                <default>false</default>
+                <label>Approved - Installed(650)</label>
+            </value>
+            <value>
+                <fullName>Merchant Requesting to Cancel(675)</fullName>
+                <default>false</default>
+                <label>Merchant Requesting to Cancel(675)</label>
+            </value>
+            <value>
+                <fullName>Approved - Processing(700)</fullName>
+                <default>false</default>
+                <label>Approved - Processing(700)</label>
+            </value>
+            <value>
+                <fullName>Approved - Seasonal Hold(730)</fullName>
+                <default>false</default>
+                <label>Approved - Seasonal Hold(730)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
